@@ -18,6 +18,11 @@ body {
   margin: 0 auto;
 }
 
+.container_two {
+  margin: 0 auto;
+  width: 1278px;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -51,7 +56,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 .header_title a:nth-child(3) {
@@ -59,7 +64,7 @@ body {
 }
 
 .header_title a:hover {
-  font-size: 20px;
+  font-size: 19px;
 }
 /* HEADER NAV END */
 
@@ -111,7 +116,7 @@ body {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
   padding: 17px 36px 18px 37px;
-  transition: all 1s;
+  transition: all 1.2s;
 }
 
 .header_text_button a:hover {
@@ -126,4 +131,68 @@ body {
   line-height: 18px;
   font-family: Open Sans;
   width: 467px;
+}
+/* HEADER CONTENT END */
+
+/* HEADER UNDER BUTTON START */
+.header_under_content {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 100px 0px rgba(175, 161, 249, 0.3);
+  padding: 0;
+}
+
+.header_under {
+  padding: 55px 0 55px 0;
+  height: 280px;
+}
+
+.under_button {
+  margin: 0;
+  padding: 0;
+  height: 170px;
+}
+
+.under_button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  height: 70px;
+  padding: 25px 51px 25px 51px;
+  border: 2px solid white;
+  border-radius: 100px;
+  transition: all 1s;
+}
+
+.under_button a:hover {
+  border: 2px solid rgb(255, 209, 0);
+  color: rgb(255, 209, 0);
+}
+
+.under_button_one {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.under_button_two {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+/* HEADER UNDER BUTTON END */
+/* HEADER END */
+
+/* MAIN START */
+/* MAIN CONFERENCE START */
+
+.main_conference_content {
+  padding-top: 170px;
+  padding-bottom: 170px;
 }
