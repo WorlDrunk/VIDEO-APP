@@ -194,5 +194,133 @@ body {
 
 .main_conference_content {
   padding-top: 170px;
-  padding-bottom: 170px;
+  padding-bottom: 202px;
+  display: flex;
+  column-gap: 112px;
+  
 }
+
+.conference_content_banners {
+  display: flex;
+  width: 536px;
+  height: 400px;
+}
+
+.banners_one {
+  
+  
+}
+
+.banners_two {
+  position: relative;
+  bottom: -50px;
+  left: -210px;
+}
+
+.conference_content_text {
+  width: 630px;
+  height: 400px;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.conference_content_text h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0%;
+  width: 533px;
+  margin-bottom: 34px;
+}
+
+.conference_text {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  width: 514px;
+  height: 122px;
+  margin-bottom: 42px;
+}
+
+.conference_text_button {
+  height: 50px;
+  width: 230px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgb(85, 64, 191);
+  padding: 17px 32px;
+}
+
+.conference_text_button a {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* MAIN CONFERENCE END */
+
+/* MAIN ONLINE STREAM START */
+.main_online_stream {
+  background: linear-gradient(29.68deg, rgb(85, 64, 191) 35.529%,rgb(175, 161, 249) 99.59%);
+}
+
+.main_online_stream_content {
+  padding: 101px 0;
+  height: 500px;
+}
+
+.online_stream_content_text {
+  width: 516px;
+  height: 299px;
+}
+
+.online_stream_content_text h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0%;
+  height: 84px;
+  width: 516px;
+  margin-bottom: 36px;
+}
+
+.stream_content_text {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  margin-bottom: 44px;
+}
+
+.stream_content_button {
+  height: 50px;
+  width: 185px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 17px 36px;
+  cursor: pointer;
+}
+
+.stream_content_button a {
+  color: rgb(85, 64, 191);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.online_stream_content_banner {
+  position: relative;
+  top: -461px;
+  left: 580px;
+  width: 588px;
+  height: 456px;
+}
+/* MAIN STREAM BROADCASTS END */
