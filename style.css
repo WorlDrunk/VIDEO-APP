@@ -324,3 +324,34 @@ body {
   height: 456px;
 }
 /* MAIN STREAM BROADCASTS END */
+
+/* FOOTER START */
+.footer_content {
+  padding-top: 69px;
+  padding-bottom: 53px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.social_media {
+  display: flex;
+  column-gap: 18px;
+  justify-content: flex-end;
+  margin-bottom: 28px;
+}
+
+.footer_title a {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(85, 64, 191);
+  font-family: Open Sans;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-decoration: none;
+}
+/* FOOTER END */
